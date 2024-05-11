@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-                <packaging>war</packaging>
 		<version>2.4.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.arp</groupId>
 	<artifactId>SpringBootWithJSP</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootWithJSP</name>
 	<description>Demo project for Spring Boot</description>
@@ -67,13 +67,14 @@
 		</dependency>
 	</dependencies>
 	<build>
-        <finalName>spring-jsp</finalName>
+	<finalName>spring-jsp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+			
+			</plugins>
 	</build>
 
 </project>
